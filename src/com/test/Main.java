@@ -12,6 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
         //建立两个生产者
+        //这是测试git的分支代码 hot-fix做的修改注释
         new Thread(Main::add, "厨师1").start();
         new Thread(Main::add, "厨师2").start();
 
