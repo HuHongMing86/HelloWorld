@@ -63,6 +63,7 @@ public class Main {
                     //所以对现在的代码需要进行加锁的操作 这个时候需要返回到while代码之前进行队列的加锁
                }
                Thread.sleep(4000);
+               Thread.sleep(4000);
            } catch (InterruptedException e) {
                throw new RuntimeException(e);
            }
