@@ -15,6 +15,7 @@ public class Main {
         //这是测试git的分支代码 hot-fix做的修改注释
         //这是测试git的分支代码 master做的第二次修改注释
         //这是测试git的分支代码 hot-fix做的第二次修改注释
+        //这是测试git的分支代码 hot-fix做的第3次修改注释
         new Thread(Main::add, "厨师1").start();
         new Thread(Main::add, "厨师2").start();
 
